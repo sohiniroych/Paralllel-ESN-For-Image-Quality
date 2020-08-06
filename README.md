@@ -24,4 +24,5 @@ Output is a decision={0,1,2}. 0=manual intervention needed. 1=U1 is best annotat
 ### Metrics
 
 The metrics to be computed for TLSA are as follows:
-1. 
+1. 1. Intersection over Union (IoU) between (P1,P2)(P2,P3)(P1,P3), and find variance over mean for these 3 combinations (&phi_{&pi})
+
