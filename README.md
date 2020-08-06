@@ -42,23 +42,25 @@ The implementation details for the metrics to be computed for TLSA are as follow
 5. If 0.98>Ratio_v>1.02, decision=0.
 
 ### Examples
-
 Refer to the 4 sample images, their sample annotations and proposals in folder Samples.
-Image 1: imgs/1.jpg
+Image 1: ![imgs/1.jpg](imgs/1.jpg)
 
 Here, Ratio_u is the decisive metric to return decision=1
-Image 2:imgs/2.jpg
+Image 2:![imgs/2.jpg](imgs/2.jpg)
+
 
 Here, Ratio_v is the decisive metric to return decision=2
 
 
-Image 3:imgs/3.jpg
+Image 3:![imgs/3.jpg](imgs/3.jpg)
+
 
 
 Here, Ratio_u is the decisive metric to return decision=1
 
 
 
-Image 4:imgs/4.jpg
+Image 4:![imgs/4.jpg](imgs/4.jpg)
+
 
 Here, there is zero overlap between proposals and target labels, thus decision=0
